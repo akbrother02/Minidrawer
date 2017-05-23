@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SlidingPaneLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/sliding"
+    android:layout_height="match_parent">
+
+    <!--Master fragment-->
+    <fragment
+        android:name="loadingdata.ashish.minidrawer.MasterFragment"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_master">
+    </fragment>
+
+    <!--Detail layout -->
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="1000dp"
+        android:background="#BCA123"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="56dp">
+    </FrameLayout>
+</android.support.v4.widget.SlidingPaneLayout>
